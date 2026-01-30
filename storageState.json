@@ -2,7 +2,7 @@
   "cookies": [
     {
       "name": "wordpress_70490311fe7c84acda8886406a6d884b",
-      "value": "root%7C1769362963%7CXBrO66TkncGwLQuGPczJd8jhRSNruOjYMOngmCsbPBl%7C89faa558d275af8266a18fb2ecb6a734917520f77ce4fd0758618104bdec1b98",
+      "value": "root%7C1769878983%7CWC8iSFvL58zDf0Bl8v0rriKYrlIvpjvjyC46657UurS%7C974a1272f0fe6d182dc1ea9c602adf37b200304b7b208c6fd6b97e164068cb7e",
       "domain": "localhost",
       "path": "/wp-content/plugins",
       "expires": -1,
@@ -12,7 +12,7 @@
     },
     {
       "name": "wordpress_70490311fe7c84acda8886406a6d884b",
-      "value": "root%7C1769362963%7CXBrO66TkncGwLQuGPczJd8jhRSNruOjYMOngmCsbPBl%7C89faa558d275af8266a18fb2ecb6a734917520f77ce4fd0758618104bdec1b98",
+      "value": "root%7C1769878983%7CWC8iSFvL58zDf0Bl8v0rriKYrlIvpjvjyC46657UurS%7C974a1272f0fe6d182dc1ea9c602adf37b200304b7b208c6fd6b97e164068cb7e",
       "domain": "localhost",
       "path": "/wp-admin",
       "expires": -1,
@@ -41,16 +41,6 @@
       "sameSite": "Lax"
     },
     {
-      "name": "wordpress_logged_in_70490311fe7c84acda8886406a6d884b",
-      "value": "root%7C1769362963%7CXBrO66TkncGwLQuGPczJd8jhRSNruOjYMOngmCsbPBl%7C12f6828c9650b794a5e4da7c90e22246e00ed1b0808eeb06983681d66c1b7847",
-      "domain": "localhost",
-      "path": "/",
-      "expires": -1,
-      "httpOnly": true,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
       "name": "wp-settings-1",
       "value": "libraryContent%3Dbrowse%26editor%3Dtinymce%26edit_element_vcUIPanelWidth%3D650%26edit_element_vcUIPanelLeft%3D952px%26edit_element_vcUIPanelTop%3D74px%26panel_vcUIPanelWidth%3D650%26panel_vcUIPanelLeft%3D952px%26panel_vcUIPanelTop%3D74px",
       "domain": "localhost",
@@ -67,6 +57,16 @@
       "path": "/",
       "expires": 1800726164.289495,
       "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "wordpress_logged_in_70490311fe7c84acda8886406a6d884b",
+      "value": "root%7C1769878983%7CWC8iSFvL58zDf0Bl8v0rriKYrlIvpjvjyC46657UurS%7C66cebe57744c9deb3a7b952f000e5eb788f0fa93b0e1e159d712fdec37c8381f",
+      "domain": "localhost",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
       "secure": false,
       "sameSite": "Lax"
     }

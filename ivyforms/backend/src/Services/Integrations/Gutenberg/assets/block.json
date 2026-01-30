@@ -1,0 +1,49 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "ivyforms/gutenberg-block",
+  "title": "IvyForms",
+  "category": "ivyforms",
+  "description": "Embed an IvyForms Form in your content",
+  "keywords": ["form", "contact", "ivy", "ivyforms"],
+  "textdomain": "ivyforms",
+  "icon": "file:./icon.svg",
+  "example": {
+    "viewportWidth": 230,
+    "attributes": {
+      "preview": true
+    }
+  },
+  "supports": {
+    "customClassName": true,
+    "html": false
+  },
+  "attributes": {
+    "formId": {
+      "type": "string",
+      "default": ""
+    },
+    "showTitle": {
+      "type": "boolean",
+      "default": true
+    },
+    "showDescription": {
+      "type": "boolean",
+      "default": true
+    },
+    "customCssClass": {
+      "type": "string",
+      "default": ""
+    },
+    "className": {
+      "type": "string",
+      "default": ""
+    },
+    "preview": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "editorScript": "ivyforms-gutenberg-block",
+  "editorStyle": "ivyforms-gutenberg-block-editor"
+}
